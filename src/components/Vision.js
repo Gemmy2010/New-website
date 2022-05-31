@@ -17,7 +17,7 @@ const Vision = () => {
             <div className="item-img">
               <img
                 className="img-fluid"
-                src="./images/cycling (1).png"
+                src="./images/cycling.png"
                 alt="internet of bicycles"
               />
             </div>

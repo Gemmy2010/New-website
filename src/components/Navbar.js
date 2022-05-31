@@ -128,7 +128,7 @@ const Navbar = () => {
     <div className={header ? "header  active" : "header"}>
       <nav className="navbar">
         <a href="/" className="logo">
-          <img src="./images/logo.svg" alt="logo" />
+          <img src="./images/company-logo.jpg" alt="logo" />
         </a>
         <div className="hamburger" onClick={handleClick}>
           {click ? (

@@ -32,7 +32,12 @@ html {
   overflow-x: hidden;
 }
 
+
+
+
 /*  navbar */
+
+
 
 .header {
   position: fixed;
@@ -43,7 +48,7 @@ html {
   z-index: 1;
   transition: 0.3s ease-in;
   overflow: hidden;
-  background-color: var(--light-gray);
+  background-color: var(--white);
   /* box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.4);*/
 }
 .header.active {
@@ -101,7 +106,7 @@ html {
 
 /* Lock Section */
 #lock {
-  background-color: var(--light-gray);
+  background-color: var(--white);
   height: 700px;
 }
 
@@ -366,7 +371,7 @@ html {
 #app .single-app .part-2 .description {
   color: var(--main-color) !important;
   margin-bottom: 22px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8em;
   text-align: center;
 }
@@ -414,7 +419,7 @@ html {
 #vision .item-info p,
 #mission .mission-info p {
   color: var(--main-color);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #vision .item-img {
@@ -1481,7 +1486,7 @@ div.polaroid {
 @media only screen and (max-width: 480px) {
   /* Lock section*/
   #lock {
-    max-height: 800px;
+    max-height: 940px;
   }
   #lock .container {
     width: 90%;
@@ -1499,6 +1504,9 @@ div.polaroid {
   }
   #lock .lock-info p {
     text-align: justify;
+  }
+  #lock .lock-img img{
+    margin:70px auto;
   }
 
   #lock .btn {
@@ -1720,7 +1728,7 @@ div.polaroid {
 
   /*lock*/
   #lock {
-    height: 850px;
+    height: 950px;
   }
   #lock .lock-header {
     font-size: 30px;
@@ -1745,7 +1753,7 @@ div.polaroid {
   }
   #lock .lock-img img {
     display: inline-block;
-    margin: 0 auto;
+    margin: 70px auto;
     max-width: 100%;
     height: auto;
     object-fit: cover;
@@ -1762,8 +1770,8 @@ div.polaroid {
     padding: 0px 40px;
   }
   #app .app-img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
   }
   #app .col-md-12 {
     margin-bottom: 10px;
@@ -1892,9 +1900,7 @@ div.polaroid {
   .footer-distributed {
     font: bold 14px sans-serif;
   }
-  .footer-left img {
-    width: 40%;
-  }
+  
 
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -1920,16 +1926,25 @@ div.polaroid {
   .footer-distributed .footer-icons {
     margin: 20px auto;
   }
+  .mc__field-container input{
+    width:100%;
+  }
 
   /* Blog page */
 
-  .posts {
+  .posts,
+  .facts_info,
+  .quotes_info {
     flex-direction: column;
   }
-  .posts_left {
+  .posts_left,
+  .facts_left,
+  .quotes_left {
     width: 100%;
   }
-  .posts_right {
+  .posts_right,
+  .facts_right,
+  .quotes_right {
     width: 100%;
   }
 
@@ -1939,6 +1954,10 @@ div.polaroid {
   }
   .post_item_top {
     height: 50%;
+  }
+  .quotes_container,
+  .facts_container{
+    padding:0;
   }
 }
 
