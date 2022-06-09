@@ -37,7 +37,11 @@ const  Quotes = withTranslation()(({i18n}) => {
                   <BlogContact />
                 </div>
               </div>
+<<<<<<< HEAD
               <div className="quotes_right">
+=======
+              <div className="quotes-right">
+>>>>>>> 5d508a45e2a7fa43f941a758a9947f61ab85b344
                 <Search />
                 <Categories />
                 <FactsHeader />
