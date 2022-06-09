@@ -16,7 +16,7 @@ const Mission = () => {
             <div className="mission-img">
               <img
                 className="img-fluid"
-                src="./images/combined-un-new.svg"
+                src="./images/combined-un-new.png"
                 alt="UN-goals"
               />
             </div>

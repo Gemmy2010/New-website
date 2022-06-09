@@ -1131,9 +1131,9 @@ html {
   height: 100px;
   min-height: 30%;
 }
-.post_title {
+/* .post_title {
   height: 70px;
-}
+} */
 
 .post_item_bottom h2 {
   font-size: 24px;
@@ -1161,7 +1161,8 @@ html {
   margin-top: 20px;
 }
 
-.categories_header h2 {
+.categories_header h2,
+.views_header {
   background-color: var(--black);
   color: var(--white);
   font-size: 15px;
@@ -1172,6 +1173,22 @@ html {
   position: relative;
   text-align: center;
   text-transform: uppercase;
+}
+.views_card{
+  
+  width:100%;
+  height:300px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  
+}
+.view_number
+{
+  text-align: left;
+  padding: 10px;
+}
+#count{
+  text-align: center;
 }
 
 .categories .categories_body .list {

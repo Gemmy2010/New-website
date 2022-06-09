@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import Categories from "./Categories";
 import QuotesHeader from "./QuotesHeader";
 import FactsHeader from "./FactsHeader";
+import CounterViews from "./CounterViews";
 import { withTranslation, useTranslation } from "react-i18next";
 import "../index.css";
 import Search from "./Search";
@@ -80,6 +81,7 @@ const Posts = withTranslation()(({ posts, loading, i18n }) => {
         <Categories />
         <QuotesHeader />
         <FactsHeader />
+        <CounterViews />
       </div>
     </div>
   );
