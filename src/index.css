@@ -32,12 +32,7 @@ html {
   overflow-x: hidden;
 }
 
-
-
-
 /*  navbar */
-
-
 
 .header {
   position: fixed;
@@ -1071,7 +1066,6 @@ html {
 
 /* posts */
 
-
 .posts_container,
 .facts_container {
   display: flex;
@@ -1174,20 +1168,17 @@ html {
   text-align: center;
   text-transform: uppercase;
 }
-.views_card{
-  
-  width:100%;
-  height:300px;
-   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+.views_card {
+  width: 100%;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  
 }
-.view_number
-{
+.view_number {
   text-align: left;
   padding: 10px;
 }
-#count{
+#count {
   text-align: center;
 }
 
@@ -1232,32 +1223,29 @@ html {
   margin-bottom: 40px;
 }
 .search_input input {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        outline: none;
-        height: 40px;
-       
-    }
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  outline: none;
+  height: 40px;
+}
 .btn_search {
-        position: absolute;
-        top: 0;
-        right: 0px;
-        padding: 0px 4px;
-        z-index: 2;
-        border: none;
-        height: 40px;
-        cursor: pointer;
-        color: white;
-        background-color: var(--black);
-        transform: translateX(2px);
-
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 0px 4px;
+  z-index: 2;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: var(--black);
+  transform: translateX(2px);
 }
 
-.btn_search:hover{
+.btn_search:hover {
   background-color: var(--primary-color);
 }
-    
 
 div.polaroid {
   width: 100%;
@@ -1300,8 +1288,8 @@ div.polaroid {
   text-transform: uppercase;
 }
 .facts_container,
-.quotes_container{
-  padding:0 65px;
+.quotes_container {
+  padding: 0 65px;
 }
 /* .quotes-info,
 .facts-info {
@@ -1449,14 +1437,12 @@ div.polaroid {
 } */
 
 /* blog-contact*/
-.blog_title h2{
-  color:var(--primary-color);
+.blog_title h2 {
+  color: var(--primary-color);
   text-transform: uppercase;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   text-align: left;
-
 }
-
 
 #blog-submit {
   cursor: pointer;
@@ -1522,8 +1508,8 @@ div.polaroid {
   #lock .lock-info p {
     text-align: justify;
   }
-  #lock .lock-img img{
-    margin:70px auto;
+  #lock .lock-img img {
+    margin: 70px auto;
   }
 
   #lock .btn {
@@ -1687,7 +1673,6 @@ div.polaroid {
   .posts_left,
   .posts_right {
     min-width: 100%;
-  
   }
   .post_item {
     min-height: 700px;
@@ -1697,7 +1682,7 @@ div.polaroid {
     height: 40%;
   }
   .facts_right,
-  .quotes_right{
+  .quotes_right {
     max-height: 750px;
   }
 }
@@ -1798,7 +1783,7 @@ div.polaroid {
 
   /*mission*/
   #mission {
-    height: 1150px;
+    min-height: 700px;
   }
   #mission .mission-items {
     flex-direction: column-reverse;
@@ -1919,7 +1904,6 @@ div.polaroid {
   .footer-distributed {
     font: bold 14px sans-serif;
   }
-  
 
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -1945,8 +1929,8 @@ div.polaroid {
   .footer-distributed .footer-icons {
     margin: 20px auto;
   }
-  .mc__field-container input{
-    width:100%;
+  .mc__field-container input {
+    width: 100%;
   }
 
   /* Blog page */
@@ -1967,8 +1951,8 @@ div.polaroid {
     width: 100%;
   }
   .quotes_right,
-  .facts_right{
-    height:1000px;
+  .facts_right {
+    height: 1000px;
   }
 
   .posts_item {
@@ -1979,8 +1963,8 @@ div.polaroid {
     height: 50%;
   }
   .quotes_container,
-  .facts_container{
-    padding:0;
+  .facts_container {
+    padding: 0;
   }
 }
 
