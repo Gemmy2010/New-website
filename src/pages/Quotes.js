@@ -4,8 +4,11 @@ import FactsHeader from '../components/FactsHeader';
 import BlogContact from '../components/BlogContact';
 import Search from '../components/Search';
 import Categories from '../components/Categories';
-import "../index.css"
+import CounterViews from '../components/CounterViews';
+
 import data from '../assets/QuotesData'
+
+import "../index.css";
 
 
 const  Quotes = withTranslation()(({i18n}) => {
@@ -41,6 +44,7 @@ const  Quotes = withTranslation()(({i18n}) => {
                 <Search />
                 <Categories />
                 <FactsHeader />
+                <CounterViews />
               </div>
             </div>
           

@@ -5,6 +5,7 @@ import BlogContact from "../components/BlogContact";
 import QuotesHeader from "../components/QuotesHeader";
 import FactsHeader from "../components/FactsHeader";
 import Search from "../components/Search";
+import CounterViews from "../components/CounterViews";
 
 const Article = () => {
   return (
@@ -19,6 +20,7 @@ const Article = () => {
           <Categories />
           <QuotesHeader />
           <FactsHeader />
+          <CounterViews />
         </div>
       </div>
     </>

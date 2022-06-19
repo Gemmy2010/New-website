@@ -24,7 +24,7 @@ function CounterViews() {
       <h1 className="views_header">Number of visitors</h1>
       <div className="views_card">
         <h2 className="view_number">The total number of visitors</h2>
-        <h2 id="count">{totalCount}</h2>
+        <h2 id="count"> {totalCount}</h2>
       </div>
     </div>
   );

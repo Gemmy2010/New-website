@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaBorderNone, FaTimes } from "react-icons/fa";
 
 const NavItem = ({
   nav,
@@ -150,25 +150,25 @@ const Navbar = () => {
               />
             </li>
           ))}
+          <select
+            onChange={(e) => i18next.changeLanguage(e.target.value)}
+            style={{
+              padding: "0px",
+              width: "80px",
+              border:"none"
+            }}
+          >
+            <option defaultChecked disabled={true}>
+              Lang
+            </option>
+            <option value="en" defaultChecked>
+              English
+            </option>
+            <option value="sv" defaultChecked>
+              Swedish
+            </option>
+          </select>
         </ul>
-        <select
-          onChange={(e) => i18next.changeLanguage(e.target.value)}
-          style={{
-            padding: "0px",
-            width: "100px",
-            border: "2px solid #d00355",
-            borderRadius: "20px",
-          }}>
-          <option defaultChecked disabled={true}>
-            Lang
-          </option>
-          <option value="en" defaultChecked>
-            English
-          </option>
-          <option value="sv" defaultChecked>
-            Swedish
-          </option>
-        </select>
       </nav>
     </div>
   );
