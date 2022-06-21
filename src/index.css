@@ -414,7 +414,7 @@ html {
 #vision .item-info p,
 #mission .mission-info p {
   color: var(--main-color);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #vision .item-img {
@@ -491,27 +491,15 @@ html {
   line-height: 1.8em;
   padding: 0 20px;
 }
-#mission .mission-info h4 {
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  line-height: 1.8em;
-  text-align: left;
-}
-#mission .sub-title {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  line-height: 1.8em;
-  color: var(--header-color);
-}
+
+
 #more {
   display: none;
 }
 .btn_mission {
   width: 130px;
   border: 2px solid var(--primary-color);
-  border-radius: 30px;
+  border-radius: 8px;
   outline: none;
   padding: 4px 6px;
   font-size: 16px;
@@ -531,6 +519,7 @@ html {
 /* End of Mission section*/
 
 /*Team section */
+
 #team {
   height: 900px;
 }
@@ -545,10 +534,11 @@ html {
   flex: 30%;
   margin-right: 50px;
   padding: 0 8px;
-  background-color: white;
+  background-color: var(--white);
   height: 300px;
   -moz-perspective: 1000;
   perspective: 1000px;
+  -moz-backface-visibility: hidden
 }
 #team .team-bottom {
   margin-top: 50px;
@@ -642,7 +632,7 @@ html {
   align-items: center;
   text-align: left;
   padding: 60px 15px;
-  z-index: 2;
+  z-index:2;
   background-color: #fff;
 }
 #team .team__card-back p {
@@ -654,6 +644,8 @@ html {
 #team .team__container h2 {
   text-align: center;
 }
+
+
 
 /*Contact section*/
 #contact {
@@ -1260,11 +1252,7 @@ div.polaroid {
   text-align: center;
   padding: 5px;
 }
-/* .facts-container {
-  position: relative;
-  text-align: center;
-  color: white;
-} */
+
 .top-left {
   width: 100%;
   position: absolute;
@@ -1293,27 +1281,6 @@ div.polaroid {
 .quotes_container {
   padding: 0 65px;
 }
-/* .quotes-info,
-.facts-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  height:auto;
-  margin-top: 100px;
-  padding: 30px;
-  text-decoration: none;
-}
-
-.facts-column,
-.quotes-column {
-  flex: 2;
-  margin-right: 20px;
-}
-.facts-column:nth-of-type(even),
-.quotes-column:nth-of-type(even) {
-  flex: 1;
-} */
 
 /* ======= Single Blog page styles */
 #sustainability-blog {
@@ -1548,7 +1515,7 @@ div.polaroid {
 
   /*mission section*/
   #mission {
-    min-height: 980px;
+    min-height: 1080px;
   }
 
   /* Team section */
@@ -1785,7 +1752,7 @@ div.polaroid {
 
   /*mission*/
   #mission {
-    max-height: 1200px;
+    height: 900px;
     overflow:hidden;
   }
   #mission .mission-items {

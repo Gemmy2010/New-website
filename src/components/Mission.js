@@ -21,7 +21,7 @@ const Mission = () => {
               />
             </div>
             <div className="mission-info">
-              <div className="UN-info">
+              <p>
                 {showMore
                   ? `${t("mission_content")}`
                   : `${t("mission_content").substring(0, 450)}`}
@@ -30,7 +30,7 @@ const Mission = () => {
                   onClick={() => setShowMore((prev) => !prev)}>
                   {showMore ? "Show less" : "Show more"}
                 </button>
-              </div>
+              </p>
             </div>
           </div>
         </div>
