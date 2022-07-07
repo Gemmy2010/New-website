@@ -1,11 +1,11 @@
 import React from "react";
-import Categories from "../components/Categories";
-import SingleArticle from "../components/Article";
-import BlogContact from "../components/BlogContact";
-import QuotesHeader from "../components/QuotesHeader";
-import FactsHeader from "../components/FactsHeader";
-import Search from "../components/Search";
-import CounterViews from "../components/CounterViews";
+import Categories from "../components/blogFolder/Categories";
+import SingleArticle from "../components/blogFolder/Article";
+import BlogContact from "../components/blogFolder/BlogContact";
+import QuotesHeader from "../components/blogFolder/QuotesHeader";
+import FactsHeader from "../components/blogFolder/FactsHeader";
+import Search from "../components/blogFolder/Search";
+import CounterViews from "../components/blogFolder/CounterViews";
 
 const Article = () => {
   return (

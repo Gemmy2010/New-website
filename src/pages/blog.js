@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import client from "../client";
 import { useParams } from "react-router-dom";
 
-import Posts from "../components/Posts";
+import Posts from "../components/blogFolder/Posts";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import client from "../client";
-import Posts from "../components/Posts";
+import Posts from "../components/blogFolder/Posts";
 
 const SearchByCategory = () => {
   const [posts, setPosts] = useState([]);

@@ -1,10 +1,10 @@
 import React from "react";
-import Banner from "../components/Banner";
-import Features from "../components/Features";
-import Vision from "../components/Vision";
-import Mission from "../components/Mission";
-import Team from "../components/Team";
-import Contact from "../components/Contact";
+import Banner from "../components/HomePage/Banner";
+import Features from "../components/HomePage/Features";
+import Vision from "../components/HomePage/Vision";
+import Mission from "../components/HomePage/Mission";
+import Team from "../components/HomePage/Team";
+import Contact from "../components/HomePage/Contact";
 
 
 const Home = () => {

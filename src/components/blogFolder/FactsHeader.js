@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import facts from "../images/facts.jpg";
+import facts from "../../images/facts.jpg";
 import styled from "styled-components";
 
-import "../index.css";
+import "../../index.css";
 
 const FactsHeader = () => {
   const { t } = useTranslation();

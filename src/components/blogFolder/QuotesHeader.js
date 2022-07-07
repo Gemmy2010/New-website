@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import quotes from "../images/quotes.jpg";
-import styled from 'styled-components'
+import quotes from "../../images/quotes.jpg";
 
+import "../../index.css"
 
-
-import "../index.css"
 
 const  QuotesHeader = () => {
   

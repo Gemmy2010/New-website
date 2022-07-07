@@ -1,11 +1,11 @@
 import React, {useEffect}from 'react'
 import { useTranslation, withTranslation } from "react-i18next";
-import QuotesHeader from "../components/QuotesHeader";
-import Search from '../components/Search';
-import BlogContact from '../components/BlogContact';
-import Categories from '../components/Categories';
-import CounterViews from '../components/CounterViews';
-import data from '../assets/FactsData'
+import QuotesHeader from "../components/blogFolder/QuotesHeader";
+import Search from '../components/blogFolder/Search';
+import BlogContact from '../components/blogFolder/BlogContact'
+import Categories from '../components/blogFolder/Categories';
+import CounterViews from '../components/blogFolder/CounterViews';
+import data from '../data/FactsData'
 
 import "../index.css";
 

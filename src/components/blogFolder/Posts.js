@@ -5,8 +5,10 @@ import QuotesHeader from "./QuotesHeader";
 import FactsHeader from "./FactsHeader";
 import CounterViews from "./CounterViews";
 import { withTranslation, useTranslation } from "react-i18next";
-import "../index.css";
 import Search from "./Search";
+
+import "../../index.css";
+
 
 const Posts = withTranslation()(({ posts, loading, i18n }) => {
   const { category, search } = useParams();
