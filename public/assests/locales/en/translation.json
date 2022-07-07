@@ -58,5 +58,10 @@
   "blog_contact_button": "Post a Comment",
   "blog_category_title": "Categories",
   "post_heading": "There are no posts  yet",
-  "search": "Search for blog title"
+  "search": "Search for blog title",
+  "title_views": " Number of visitors",
+  "total_views": "The total number of visitors",
+  "blog_search": "Search",
+  "mission_showMore" : "Show more",
+  "mission_showLess" : "Show less"
 }

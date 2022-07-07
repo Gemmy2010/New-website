@@ -24,7 +24,7 @@ const Mission = () => {
               <p>
                 {showMore
                   ? `${t("mission_content")}`
-                  : `${t("mission_content").substring(0, 450)}`}
+                  : `${t("mission_content").substring(0, 467)}`}
                 <button
                   className="btn_mission"
                   onClick={() => setShowMore((prev) => !prev)}>

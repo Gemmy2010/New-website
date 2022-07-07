@@ -44,7 +44,7 @@ html {
   transition: 0.3s ease-in;
   overflow: hidden;
   background-color: var(--white);
-  /* box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.4);*/
+   box-shadow: 5px 2px 5px 0px rgba(0, 0, 0, 0.4);
 }
 .header.active {
   /*background-color:rgba(255, 255, 255, 0.9);*/
@@ -101,7 +101,7 @@ html {
 
 /* Lock Section */
 #lock {
-  background-color: var(--white);
+  background-color: #f9f9f9;
   height: 700px;
 }
 
@@ -498,7 +498,7 @@ html {
 }
 .btn_mission {
   width: 130px;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 8px;
   outline: none;
   padding: 4px 6px;
@@ -538,7 +538,9 @@ html {
   height: 300px;
   -moz-perspective: 1000;
   perspective: 1000px;
-  -moz-backface-visibility: hidden
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+
 }
 #team .team-bottom {
   margin-top: 50px;
@@ -664,7 +666,7 @@ html {
   max-width: 840px;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
   background-color: var(--white);
   margin-bottom: 20px;
 }
@@ -679,7 +681,7 @@ html {
   width: 100%;
   padding: 12px 4px;
   font-size: 18px;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   margin-top: 5px;
 }
 #contact .form-group input[type="text"]:hover,
@@ -687,7 +689,7 @@ html {
 #contact .form-group textarea[type="text"]:hover,
 #contact .form-group label:hover ~ input[type="text"] {
   background: var(--light-gray);
-  border: 2px solid var(--black);
+  border: 1px solid var(--black);
 }
 
 #contact .btn2 {
@@ -1117,21 +1119,12 @@ html {
   height: 100px;
   min-height: 30%;
 }
-/* .post_title {
-  height: 70px;
-} */
 
 .post_item_bottom h2 {
   font-size: 24px;
   line-height: 1.2;
   text-transform: none;
 }
-/*
-.post_item_bottom_content{
-  height:200px ;
-  text-overflow: hidden;
-  white-space: nowrap;
-}*/
 
 .post_item_bottom h2 a {
   color: var(--main-color);
@@ -1234,6 +1227,7 @@ html {
   color: white;
   background-color: var(--black);
   transform: translateX(2px);
+
   
 }
 
@@ -1330,7 +1324,6 @@ div.polaroid {
 
 .blog-card {
   background-color: white;
-  padding: 0px 20px;
   margin-top: 20px;
 }
 .blog-card h2,
@@ -1511,11 +1504,17 @@ div.polaroid {
   /*vision*/
   #vision {
     max-height: 700px;
+    min-width:100%;
   }
 
   /*mission section*/
   #mission {
     min-height: 1080px;
+
+  }
+  #mission .mission-info{
+    font-size: 16px;
+    line-height: 1em;
   }
 
   /* Team section */
@@ -1585,6 +1584,7 @@ div.polaroid {
     text-align: center;
     font-size: 10px;
   }
+  
 
   /*button scroll to top*/
   #btnScrollToTop {
@@ -1709,7 +1709,7 @@ div.polaroid {
   }
 
   #lock .lock {
-    margin-top: 10px;
+    margin-top: 30px;
     height: 900px;
   }
   #lock .lock-column {
@@ -1766,19 +1766,12 @@ div.polaroid {
     flex-basis: 100%;
   }
 
-  #mission .sub-title {
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    line-height: 1.8em;
-
-    color: var(--header-color);
-  }
+ 
   #mission .mission-info p {
     color: #666;
-    font-size: 15px;
-    line-height: 1.8em;
-    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5em;
+    
   }
 
   /*vision*/
@@ -1840,8 +1833,8 @@ div.polaroid {
 
   /* Contact */
 
-  #contact {
-    padding: 0px;
+  #contact .container-contact {
+    padding: 5px;
   }
 
   /*scroll to top  button*/

@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { t } from "i18next";
+import { useTranslation } from "react-i18next";
+
+
+
+
 
 function Search() {
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
 
   let navigate = useNavigate();
@@ -29,7 +35,7 @@ function Search() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <button className="btn_search"onClick={handleSearch}>Search</button>
+          <button className="btn_search"onClick={handleSearch}>{t("blog_search")}</button>
         </div>
       </form>
     </div>

@@ -58,5 +58,11 @@
   "blog_contact_button": "Posta en kommentar",
   "blog_category_title": "Kategorier",
   "post_heading": "Det finns inga inlägg i denna  ännu",
-  "search": "Search for blog title"
+  "search": "Search for blog title",
+  "title_views": " Antal besökare",
+  "total_views": "Det totala antalet besökare",
+  "blog_search": "Sök",
+  "mission_showMore": "Visa mer",
+  "mission_showLess": "Visa mindre"
+ 
 }
